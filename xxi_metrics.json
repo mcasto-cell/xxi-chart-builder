@@ -1,31 +1,5 @@
 ﻿[
     {
-        "date":  "2025-12-15",
-        "market_cap":  3661215523.4880004,
-        "mnav_outstanding":  0.9536218605703269,
-        "nav":  3839273903.9123526,
-        "treasury_holdings_btc":  43514,
-        "volume":  16683454.504800001,
-        "shares_outstanding":  336979560,
-        "stock_close":  11.1200,
-        "btc_price":  88230.77409367910557521717149,
-        "nav_per_share":  11.393195195317937384688851751,
-        "share_premium":  -0.0239788040698370240144842329
-    },
-    {
-        "date":  "2025-12-16",
-        "market_cap":  3608073846.8760004,
-        "mnav_outstanding":  0.9595391714763233,
-        "nav":  3760215272.2172947,
-        "treasury_holdings_btc":  43514,
-        "volume":  19261773.1012,
-        "shares_outstanding":  336979560,
-        "stock_close":  10.5500,
-        "btc_price":  86413.91901956369674127866893,
-        "nav_per_share":  11.158585619309653974264789235,
-        "share_premium":  -0.054539673760849380953218564
-    },
-    {
         "date":  "2025-12-17",
         "market_cap":  3638705288.88,
         "mnav_outstanding":  0.9521713271482474,
@@ -1298,5 +1272,31 @@
         "btc_price":  80022.04125006414717102541711,
         "nav_per_share":  10.047893987636665603582079977,
         "share_premium":  -0.1421087831334211935484790128
+    },
+    {
+        "date":  "2026-05-11",
+        "market_cap":  3030113085.3861003,
+        "mnav_outstanding":  0.8477059412623051,
+        "nav":  3574486078.125167,
+        "treasury_holdings_btc":  43514,
+        "volume":  9448491.83609942,
+        "shares_outstanding":  346548153,
+        "stock_close":  8.7300,
+        "btc_price":  82145.65606759128096704508894,
+        "nav_per_share":  10.314543728430048796133679004,
+        "share_premium":  -0.1536222803595819628295758058
+    },
+    {
+        "date":  "2026-05-12",
+        "market_cap":  null,
+        "mnav_outstanding":  null,
+        "nav":  null,
+        "treasury_holdings_btc":  43514,
+        "volume":  null,
+        "shares_outstanding":  null,
+        "stock_close":  8.3600,
+        "btc_price":  null,
+        "nav_per_share":  null,
+        "share_premium":  null
     }
 ]
