@@ -1,18 +1,5 @@
 ﻿[
     {
-        "date":  "2026-01-09",
-        "market_cap":  3225046421.4486003,
-        "mnav_outstanding":  0.8145997042161096,
-        "nav":  3959056705.7129817,
-        "treasury_holdings_btc":  43514,
-        "volume":  8215699.484,
-        "shares_outstanding":  346548153,
-        "stock_close":  9.2000,
-        "btc_price":  90983.51578142624672519189226,
-        "nav_per_share":  11.424261452384603244444358646,
-        "share_premium":  -0.1946963015206842812720132373
-    },
-    {
         "date":  "2026-01-12",
         "market_cap":  3187549911.294,
         "mnav_outstanding":  0.8065838473938559,
@@ -1288,15 +1275,28 @@
     },
     {
         "date":  "2026-06-03",
-        "market_cap":  2248979454.8928,
-        "mnav_outstanding":  0.7754561911472496,
+        "market_cap":  2248875412.542,
+        "mnav_outstanding":  0.7754203169711232,
         "nav":  2900201817.4173636,
         "treasury_holdings_btc":  43514,
-        "volume":  10845747.24237974,
+        "volume":  10872409.06661575,
         "shares_outstanding":  346807836,
         "stock_close":  6.4200,
         "btc_price":  66649.855619280314381578342602,
         "nav_per_share":  8.362561385197085339213615692,
         "share_premium":  -0.2322926308960426085119428884
+    },
+    {
+        "date":  "2026-06-04",
+        "market_cap":  2189120422.3992,
+        "mnav_outstanding":  0.785800245168973,
+        "nav":  2785848484.850583,
+        "treasury_holdings_btc":  43514,
+        "volume":  12879964.70480123,
+        "shares_outstanding":  346807836,
+        "stock_close":  6.2600,
+        "btc_price":  64021.88915867497816794594843,
+        "nav_per_share":  8.032830275641704358721583211,
+        "share_premium":  -0.220698087076174584590396623
     }
 ]
