@@ -2,11 +2,25 @@
     "Meta Data":  {
                       "1. Information":  "Daily Prices (open, high, low, close) and Volumes",
                       "2. Symbol":  "XXI",
-                      "3. Last Refreshed":  "2026-06-09",
+                      "3. Last Refreshed":  "2026-06-11",
                       "4. Output Size":  "Compact",
                       "5. Time Zone":  "US/Eastern"
                   },
     "Time Series (Daily)":  {
+                                "2026-06-11":  {
+                                                   "1. open":  "5.4000",
+                                                   "2. high":  "5.7900",
+                                                   "3. low":  "5.3100",
+                                                   "4. close":  "5.7000",
+                                                   "5. volume":  "1602124"
+                                               },
+                                "2026-06-10":  {
+                                                   "1. open":  "5.4200",
+                                                   "2. high":  "5.5100",
+                                                   "3. low":  "5.3200",
+                                                   "4. close":  "5.3400",
+                                                   "5. volume":  "987496"
+                                               },
                                 "2026-06-09":  {
                                                    "1. open":  "5.8100",
                                                    "2. high":  "5.8700",
@@ -692,20 +706,6 @@
                                                    "3. low":  "8.2650",
                                                    "4. close":  "8.4000",
                                                    "5. volume":  "2272163"
-                                               },
-                                "2026-01-16":  {
-                                                   "1. open":  "9.4400",
-                                                   "2. high":  "9.4900",
-                                                   "3. low":  "9.1500",
-                                                   "4. close":  "9.2800",
-                                                   "5. volume":  "917958"
-                                               },
-                                "2026-01-15":  {
-                                                   "1. open":  "9.7500",
-                                                   "2. high":  "9.9000",
-                                                   "3. low":  "9.3800",
-                                                   "4. close":  "9.4400",
-                                                   "5. volume":  "900874"
                                                }
                             }
 }
