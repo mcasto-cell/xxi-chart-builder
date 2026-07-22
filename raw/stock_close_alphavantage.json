@@ -2,11 +2,18 @@
     "Meta Data":  {
                       "1. Information":  "Daily Prices (open, high, low, close) and Volumes",
                       "2. Symbol":  "XXI",
-                      "3. Last Refreshed":  "2026-07-20",
+                      "3. Last Refreshed":  "2026-07-21",
                       "4. Output Size":  "Compact",
                       "5. Time Zone":  "US/Eastern"
                   },
     "Time Series (Daily)":  {
+                                "2026-07-21":  {
+                                                   "1. open":  "5.0400",
+                                                   "2. high":  "5.2150",
+                                                   "3. low":  "4.2700",
+                                                   "4. close":  "4.9200",
+                                                   "5. volume":  "5936427"
+                                               },
                                 "2026-07-20":  {
                                                    "1. open":  "5.3400",
                                                    "2. high":  "5.4150",
@@ -699,13 +706,6 @@
                                                    "3. low":  "6.1550",
                                                    "4. close":  "6.2000",
                                                    "5. volume":  "540527"
-                                               },
-                                "2026-02-25":  {
-                                                   "1. open":  "6.2900",
-                                                   "2. high":  "6.6050",
-                                                   "3. low":  "6.2100",
-                                                   "4. close":  "6.5400",
-                                                   "5. volume":  "1302599"
                                                }
                             }
 }
