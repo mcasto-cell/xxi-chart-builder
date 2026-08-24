@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -69,6 +69,13 @@
     <h2>Market Cap and NAV</h2>
     <div class="chart-wrap">
       <canvas id="chart_market_cap_nav"></canvas>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>XXI Shares Outstanding</h2>
+    <div class="chart-wrap">
+      <canvas id="chart_shares_outstanding"></canvas>
     </div>
   </section>
 
@@ -358,6 +365,71 @@
             ticks: {
               callback: function(value) {
                 return currencyCompact.format(value);
+              }
+            }
+          }
+        }
+      }
+    });
+
+    const sharesOutstanding = labels.map(function(date) {
+      if (date <= '2026-05-13') {
+        return 346548153;
+      }
+
+      if (date <= '2026-08-12') {
+        return 346807836;
+      }
+
+      return 562372222;
+    });
+
+    new Chart(document.getElementById('chart_shares_outstanding'), {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'XXI Shares Outstanding',
+          data: sharesOutstanding,
+          backgroundColor: '#F65F09',
+          borderColor: '#000000',
+          borderWidth: 0.5
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: {
+          mode: 'index',
+          intersect: false
+        },
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: function(context) {
+                const label = context.dataset.label || '';
+                const value = context.parsed.y;
+
+                if (value === null || value === undefined) {
+                  return label + ': N/A';
+                }
+
+                return label + ': ' + new Intl.NumberFormat('en-US').format(value);
+              }
+            }
+          }
+        },
+        scales: {
+          x: {
+            ticks: {
+              maxTicksLimit: 12
+            }
+          },
+          y: {
+            beginAtZero: true,
+            ticks: {
+              callback: function(value) {
+                return numberCompact.format(value);
               }
             }
           }
