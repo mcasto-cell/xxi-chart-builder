@@ -1,18 +1,5 @@
 ﻿[
     {
-        "date":  "2026-06-09",
-        "market_cap":  1957522149.5184,
-        "mnav_outstanding":  0.7131760165379135,
-        "nav":  2744795259.6907544,
-        "treasury_holdings_btc":  43514,
-        "volume":  6464152.395025374,
-        "shares_outstanding":  346807836,
-        "stock_close":  5.5000,
-        "btc_price":  63078.44049480062508617916073,
-        "nav_per_share":  7.914455715155047419401446281,
-        "share_premium":  -0.3050690789174182960193775515
-    },
-    {
         "date":  "2026-06-10",
         "market_cap":  1873455930.072,
         "mnav_outstanding":  0.6982691308637257,
@@ -1262,11 +1249,11 @@
     },
     {
         "date":  "2026-10-27",
-        "market_cap":  2020785119.2667,
-        "mnav_outstanding":  0.5802850517696926,
+        "market_cap":  2020819782.8878,
+        "mnav_outstanding":  0.5802950057133222,
         "nav":  3482400784.069693,
         "treasury_holdings_btc":  43514,
-        "volume":  9296978.09674208,
+        "volume":  9297137.57284028,
         "shares_outstanding":  346636211,
         "stock_close":  5.8800,
         "btc_price":  80029.43383898729144643103369,
@@ -1288,15 +1275,28 @@
     },
     {
         "date":  "2026-10-29",
-        "market_cap":  1988721269.7491999,
-        "mnav_outstanding":  0.5623300308650864,
+        "market_cap":  1985358898.5025,
+        "mnav_outstanding":  0.5613792881161164,
         "nav":  3536573116.4842086,
         "treasury_holdings_btc":  43514,
-        "volume":  4062409.868748168,
+        "volume":  4276262.333568438,
         "shares_outstanding":  346636211,
         "stock_close":  5.7200,
         "btc_price":  81274.37414359076619019166245,
         "nav_per_share":  10.202549544035399694580668031,
         "share_premium":  -0.4393558222567987004974978328
+    },
+    {
+        "date":  "2026-10-30",
+        "market_cap":  1883517179.7107,
+        "mnav_outstanding":  0.5560890777454938,
+        "nav":  3387078177.0195684,
+        "treasury_holdings_btc":  43514,
+        "volume":  7692029.5571713075,
+        "shares_outstanding":  346636211,
+        "stock_close":  5.4800,
+        "btc_price":  77838.814565876922369812014524,
+        "nav_per_share":  9.771276253130889432668071715,
+        "share_premium":  -0.4391725442984880050449893904
     }
 ]
